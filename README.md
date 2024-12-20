@@ -9,10 +9,15 @@
 4- helm install logstash elastic/logstash -f logstash-values.yaml
 
 5- helm install kibana elastic/kibana -f kibana-values.yaml
+
+
+
 6- $ kubectl get secret elasticsearch-master-credentials -o jsonpath="{.data.username}" | base64 --decode
 
 $ kubectl get secret elasticsearch-master-credentials -o jsonpath="{.data.password}" | base64 --decode
 #### ces commande pour générer le login et mot de passe affin d'accéder à l'interface graphique kibana
-N.B:
-_n'oublie pas d'autoriser les port des services depuis les règle de parfeu (GCP) _
+
+
+## N.B:
+---n'oublie pas d'autoriser les port des services depuis les règle de parfeu (GCP)---
  
