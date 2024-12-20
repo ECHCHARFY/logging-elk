@@ -1,0 +1,17 @@
+service:
+  type: LoadBalancer
+  loadBalancerIP: ""
+  port: 5601
+  nodePort: ""
+  labels: {}
+  annotations: {}
+ # type: NodePort
+ # port: 5601
+
+resources:
+  requests:
+    cpu: "200m"
+    memory: "200Mi"
+  limits:
+    cpu: "1000m"
+    memory: "2Gi"
