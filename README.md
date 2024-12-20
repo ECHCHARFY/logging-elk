@@ -4,6 +4,6 @@
   ## cette commande install elasticsearch avec les configuration spécifie dans le fichier elasticsearch-values.yaml
 
 # comme ça on fait pour chaque service, les fichier de configuration vous les trouvez dans les dossier dédié pour chaque service  
-3- helm install filebeat elastic/filebeat -f filebeat-values.yaml
-4- helm install logstash elastic/logstash -f logstash-values.yaml
-5- helm install kibana elastic/kibana -f kibana-values.yaml
+3- helm install filebeat elastic/filebeat -f filebeat-values.yaml \n
+4- helm install logstash elastic/logstash -f logstash-values.yaml \n
+5- helm install kibana elastic/kibana -f kibana-values.yaml \n
