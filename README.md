@@ -10,7 +10,7 @@
 
 5- helm install kibana elastic/kibana -f kibana-values.yaml
 
-
+######
 
 6- $ kubectl get secret elasticsearch-master-credentials -o jsonpath="{.data.username}" | base64 --decode
 
